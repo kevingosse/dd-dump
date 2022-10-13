@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dd-dump", "dd-dump\dd-dump.csproj", "{521CE5E0-4DE5-4CB0-B7C3-CD7A77370685}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Diagnostics.Runtime", "..\..\..\..\..\git\clrmd-aot\src\Microsoft.Diagnostics.Runtime\Microsoft.Diagnostics.Runtime.csproj", "{68A51BFD-8119-4527-9E9D-5025B938491C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{521CE5E0-4DE5-4CB0-B7C3-CD7A77370685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521CE5E0-4DE5-4CB0-B7C3-CD7A77370685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521CE5E0-4DE5-4CB0-B7C3-CD7A77370685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521CE5E0-4DE5-4CB0-B7C3-CD7A77370685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A51BFD-8119-4527-9E9D-5025B938491C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A51BFD-8119-4527-9E9D-5025B938491C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A51BFD-8119-4527-9E9D-5025B938491C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A51BFD-8119-4527-9E9D-5025B938491C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7E62CA5-3AC3-4684-AA56-7DAA057189DD}
+	EndGlobalSection
+EndGlobal
